@@ -4,7 +4,7 @@ This project creates a priority queue which has the property of a min heap. The 
 
 After having the priority queue, we will use it to help finding the shortest distance of the Lewis Carroll distance. Instead of using `Breadth First Search` with uninformed searching method, we use `priority queue` to optimize the searching progress because the priority queue's min heap property gives us the shorter distance when searching. 
 
-In addition, in order to have the distance working with `the priority queue`, we need to calculate the distance bettween the first word (s1) with any generated new word and that new word (called a hop) with the final word (s2) (by calculating character differences). The nodes in the priority queue will store these words with the calculated distances. 
+In order to have the distance working with `the priority queue`, we need to calculate the distance bettween the first word (s1) with any new generated word (called a hop) and between that new word with the final word (s2) (by calculating character differences). The nodes in the priority queue will store these words with the calculated distances. 
 
 ### Screen Shots 
 
